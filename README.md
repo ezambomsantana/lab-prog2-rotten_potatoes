@@ -13,10 +13,10 @@ rails server
 
 In the class we will see how to run unit tests with RSPEC, a Ruby test library. To run the tests we will need to install some gems in the project GEMFILE:
 
-### RSPEC: The test library that we will use - this gem must be added in the group :test
+#### RSPEC: The test library that we will use - this gem must be added in the group :test
 gem rspec-rails
 
-### TheMovieDB - A Wrapper to the TMDb API
+#### TheMovieDB - A Wrapper to the TMDb API
 gem themoviedb
 
 After adding the two gems, run bundle install.
