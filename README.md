@@ -6,7 +6,9 @@ Repository with the code of the Rotten Potatoes Application from the SaaS book
 
 First run bundle install in the application directory to install all the dependencies.
 
-After, run: rails server
+After, execute the migrations: rake db:migrate RAILS_ENV=development
+
+Finally, start the server: rails server
 
 The application will be available at http://localhost:3000
 
